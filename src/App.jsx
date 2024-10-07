@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Sidebar from './components/Sidebar/Sidebar';
-import TopBar from './components/TopBar/TopBar';
-import DashboardPage from './pages/DashboardPage';
-import DoctorsPage from './pages/DoctorsPage';
-import PatientsPage from './pages/PatientsPage';
-import './App.css';
+import Sidebar from './components/Sidebar/Sidebar'; // Corrected path
+import TopBar from './components/TopBar/TopBar'; // Corrected path
+import DashboardPage from './pages/DashboardPage'; // Corrected path
+import DoctorsPage from './pages/DoctorsPage'; // Corrected path
+import PatientsPage from './pages/PatientsPage'; // Corrected path
+import './App.css'; // Corrected path
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(true);
